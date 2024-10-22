@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int i,n;
+	int res=0;
+	int rem,temp;
+	clrscr();
+	printf("enter any number:");
+	scanf("%d",&n);
+
+	temp = n;
+
+	while(n!=0)
+	{
+		rem = n % 10;
+		res = res+rem * rem * rem;
+		n = n/10;
+
+	}
+	if(temp==res)
+	{
+		printf("%d is armstrong number.",temp);
+	}
+	else
+	{
+		printf("%d is not armstrong number..",temp);
+	}
+	getch();
+
+
+
+}

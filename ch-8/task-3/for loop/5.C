@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i,mul;
+	clrscr();
+	printf("enter any number:");
+	scanf("%d",&n);
+
+	for(i=1;i<=10;i++)
+	{
+	      mul = n*i;
+
+	      printf("\n\n %d * %d = %d",n,i,mul);
+	}
+
+
+	getch();
+
+}

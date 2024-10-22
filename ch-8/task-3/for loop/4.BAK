@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i=1,add=0;
+	clrscr();
+	printf("enter any number:");
+	scanf("%d",&n);
+
+	for(i=1;i<=n;i++)
+	{
+		add = add+i;
+
+	}
+		printf("\nThe sum is all number:%d \t",add);
+
+	getch();
+
+
+}
