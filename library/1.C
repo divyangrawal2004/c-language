@@ -3,6 +3,7 @@
 main()
 {
  int num;
+ char lang;
  char n[200];
  clrscr();
  printf("/\\welcome in library.../\\");
@@ -32,17 +33,19 @@ main()
 		  printf("4. manipulation\n");
 		  scanf("%d",&num);
 
-			switch()
+			switch(lang)
+
 			{
-				case a:
-				case b:
-				case c:
-				case d:
-				case e:
-				case f:
+				case 'a':
+				case 'b':
+				case 'c':
+				case 'd':
+				case 'e':
+				case 'f':
 				printf("Gujrati");
-
-
+				printf("English");
+				printf("Hindi");
+				scanf("%c",&lang);
 
 			}
 		  break;
@@ -161,5 +164,11 @@ main()
  }
 
 
+
  getch();
+
 }
+
+
+
+

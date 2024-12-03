@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
-
 
 main()
 {
 	int i,j;
-	 clrscr();
+	
 	for(i=1;i<=7;i++)
 
 	{
@@ -43,5 +41,4 @@ main()
 	     printf("\n");
 	}
 
-     getch();
 }

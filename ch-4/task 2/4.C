@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 main()
 {
  int a,b,c;
- clrscr();
+//  clrscr();
  printf("enter a value:");
  scanf("%d",&a);
  printf("enter b value:");
@@ -13,7 +13,7 @@ main()
  b=c;
  printf("swapping a is :%d\n",a);
  printf("swapping b is :%d\n",b);
- getch();
+//  getch();
 
 }
 

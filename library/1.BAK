@@ -3,6 +3,7 @@
 main()
 {
  int num;
+ char lang;
  char n[200];
  clrscr();
  printf("/\\welcome in library.../\\");
@@ -30,7 +31,23 @@ main()
 		  printf("2. power of your sybconscious mind\n");
 		  printf("3. a concise textbook of human psychology\n");
 		  printf("4. manipulation\n");
+		  scanf("%d",&num);
 
+			switch(lang)
+
+			{
+				case 'a':
+				case 'b':
+				case 'c':
+				case 'd':
+				case 'e':
+				case 'f':
+				printf("Gujrati");
+				printf("English");
+				printf("Hindi");
+				scanf("%c",&lang);
+
+			}
 		  break;
 
 		}
@@ -41,6 +58,7 @@ main()
 
 		switch(num)
 		{
+
 		  case 2:
 		  printf("1. a short history of mearly everything\n");
 		  printf("2. the god delusion \n");
@@ -147,4 +165,8 @@ main()
 
 
  getch();
-}
+  }
+
+
+
+
