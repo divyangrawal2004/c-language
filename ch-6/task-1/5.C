@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 main()
 {
  char a;
- clrscr();
+//  clrscr();
  printf("enter any character:");
  scanf("%c",&a);
  if('A'<= 'Z')
@@ -11,11 +11,11 @@ main()
      printf("capital alfabets...");
 
  }
- else ('a'<= 'z')
+ else if ('a'<= 'z')
  {
    printf("small alfabets...");
 
  }
 
- getch();
+//  getch();
 }

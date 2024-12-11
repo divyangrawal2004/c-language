@@ -3,7 +3,7 @@
 main()
 {
 	long int n,i,mul=1;
-	clrscr();
+	// clrscr();
 	printf("enter factorial number:");
 	scanf("%ld",&n);
 
@@ -13,6 +13,6 @@ main()
 
 	}
 	printf("\n\nmultiplaction is %ld",mul);
-	getch();
+	// getch();
 
 }

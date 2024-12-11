@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 main()
 {
 	int i,j,s;
 
-	clrscr();
+	// clrscr();
 	for(i=1;i<=5;i++)
 	{
 
@@ -21,5 +21,5 @@ main()
 
 	}
 
-	getch();
+	// getch();
 }
